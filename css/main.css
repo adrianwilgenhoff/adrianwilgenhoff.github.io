@@ -4,3 +4,86 @@ body{
     background-repeat: no-repeat;
 }
 
+.btn-primary{
+    margin-bottom: 5px;
+    background: rgba(22, 165, 165, 0.5);
+    color: white;
+    border: none;
+    
+}
+
+.btn-primary:hover{
+
+    background: rgba(13, 22, 22, 0.5);
+    cursor : pointer;
+    border-color: darkslategrey
+}
+
+.card img{
+
+    width: 45%;
+    margin: 50px auto 20px auto;
+    border-radius: 50%;
+    clip-path: circle(center);
+    
+}
+
+
+.card .card-title{
+    color: rgb(231, 17, 17);
+    text-align: center;
+
+}
+
+.card .card-text{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.social-network-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 15px
+    
+}
+
+.social-network-wrapper .social-icon{
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.social-network-wrapper .social-icon.facebook{
+    background-image: url(../images/facebook.png);
+}
+
+.social-network-wrapper .social-icon.github{
+    background-image: url(../images/github.png);
+}
+
+.social-network-wrapper .social-icon:not(:first-of-type){
+    border: 1px solid blue;
+}
+
+.social-network-wrapper .social-icon.linkedin{
+    background-image: url(../images/linkedin.png);
+}
+
+.social-network-wrapper .social-icon.instagram{
+    background-image: url(../images/instagram.png);
+}
+
+.social-network-wrapper .social-icon.gmail{
+    background-image: url(../images/email.png);
+}
+
+.col.resume{
+
+    background: white;
+    border-radius: 3px;
+}
