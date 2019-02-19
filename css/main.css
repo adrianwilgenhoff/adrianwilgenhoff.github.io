@@ -8,12 +8,11 @@ body{
     margin-bottom: 5px;
     background: rgba(22, 165, 165, 0.5);
     color: white;
-    border: none;
-    
+    border: none;    
+    margin: 10px;
 }
 
 .btn-primary:hover{
-
     background: rgba(13, 22, 22, 0.5);
     cursor : pointer;
     border-color: darkslategrey
@@ -24,31 +23,29 @@ body{
     width: 45%;
     margin: 50px auto 20px auto;
     border-radius: 50%;
-    clip-path: circle(center);
-    
+    clip-path: circle(center);    
 }
 
-
 .card .card-title{
-    color: rgb(231, 17, 17);
+    color: rgba(22, 165, 165);
     text-align: center;
-
 }
 
 .card .card-text{
-    color: blue;
+    color: rgba(22, 165, 165);
     text-align: center;
     font-style: italic;
+}
 
+.card h6{
+    text-align: center;
 }
 
 .social-network-wrapper{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin: 15px
-    
+    margin-top: 20px;    
 }
 
 .social-network-wrapper .social-icon{
@@ -83,7 +80,46 @@ body{
 }
 
 .col.resume{
-
     background: white;
     border-radius: 3px;
+    padding: 50px;
+}
+
+.contact.wrapper{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}   
+
+.section.header.education{
+    background-image: url(../images/educacion.png);
+}
+
+.section.header.skills{
+    background-image: url(../images/skills.png);
+}
+
+.section.header.extract{
+    background-image: url(../images/sobremi.png);
+}
+
+.section.header.languages{
+    background-image: url(../images/idioma.png);
+}
+
+
+.section.header{
+    border-left: 5px solid rgba(22, 165, 165);
+    height: 50px;
+    font-size: 30px;
+    font-weight:bold;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+    background-size: 30px;
+}
+
+.col.resume p{
+
+    font-size: 16px;        
 }
