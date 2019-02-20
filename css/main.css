@@ -45,7 +45,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    /*margin-top: 20px;  */
+    
 }
 
 .social-network-wrapper .social-icon{
@@ -83,6 +83,7 @@ body{
     background: white;
     border-radius: 3px;
     padding: 50px;
+    
 }
 
 .contact.wrapper{
